@@ -3,7 +3,7 @@ name: Auto Build and Push to Docker Hub
 on:
   push:
     branches:
-      - main   # runs when code is pushed to main
+      - master   # runs when code is pushed to main
 
 jobs:
   build-and-push:

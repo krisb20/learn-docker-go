@@ -2,7 +2,7 @@ name: Build and Push to Docker Hub
 
 on:
   push:
-    branches: [ main ]        # Or use tags: `tags: [ 'v*.*.*' ]`
+    branches: [ master ]        # Or use tags: `tags: [ 'v*.*.*' ]`
 
 jobs:
   build-and-push:
